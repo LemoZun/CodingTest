@@ -1,25 +1,25 @@
 ﻿namespace CodingTestNoob
 
 {
-    internal class Program
+    internal class temp
 
     {
-        static int Solution1(int num1, int num2)
+        static int Solution1(int num1, int num2) // 120802
         {
             int answer = num1 + num2;
             return answer;
         }
-        static int Solution2(int num1, int num2)
+        static int Solution2(int num1, int num2) 
         {
             int answer = num1 - num2;
             return answer;
         }
-        static int Solution3(int num1, int num2)
+        static int Solution3(int num1, int num2) 
         {
             int answer = num1 * num2;
             return answer;
         }
-        static int Solution4(int num1, int num2)
+        static int Solution4(int num1, int num2) 
         {
             int answer = num1 / num2;
             return answer;
@@ -140,9 +140,6 @@
             return answer = array[middle]; ;
         }
 
-        static void Main(string[] args)
-        {
-
-        }
+        
     }
 }
