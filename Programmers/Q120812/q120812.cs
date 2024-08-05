@@ -14,7 +14,7 @@
             public int solution(int[] array)
             {
                 
-
+                if(array.Length ==1) return array[0];
                 
                 if (array.Length == 0) return -1;
                 Array.Sort(array);
