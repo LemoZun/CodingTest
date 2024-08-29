@@ -2,6 +2,10 @@
 {
     public class Program
     {
+        /// <summary>
+        /// 콜라츠 추측 Q12943
+        /// https://school.programmers.co.kr/learn/courses/30/lessons/12943
+        /// </summary>
         public class Solution
         {
             int count = 0;
@@ -24,7 +28,7 @@
                     return solution(num * 3 + 1);
                 }
             }
-        }
+        } //세수하고옴
 
         static void Main()
         {
