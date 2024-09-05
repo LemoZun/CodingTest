@@ -22,7 +22,6 @@
                 if (x % sum == 0)
                     return true;
                 else return false;
-
             }
         }
         static void Main(string[] args)

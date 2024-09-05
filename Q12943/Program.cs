@@ -28,7 +28,7 @@
                     return solution(num * 3 + 1);
                 }
             }
-        } //세수하고옴
+        } 
 
         static void Main()
         {
