@@ -2,6 +2,11 @@
 {
     public class Program
     {
+        /// <summary>
+        /// 크기가 작은 부분문자열
+        /// Q147355
+        /// https://school.programmers.co.kr/learn/courses/30/lessons/147355
+        /// </summary>
         public class Solution
         {
             public int solution(string t, string p)
