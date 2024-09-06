@@ -31,7 +31,6 @@
                 {
                     s = s.Replace(number.Key, number.Value);
                 }
-
                 return int.Parse(s);
             }
         }
