@@ -25,6 +25,9 @@
                     [4, 4, 4]	4 x 3 = 12
                     [4, 4, 4]   4 x 3 = 12
                  */
+
+                //k는 왜 필요한거지?
+
                 int boxNum = score.Length / m; //사과박스의 총 개수
                 Array.Sort(score);
                 Array.Reverse(score);
