@@ -237,6 +237,58 @@ namespace Test
             
         }
 
+        public class Solution6
+        {
+            public int SearchThree(int[] arr)
+            {
+                int count = 0;
+                foreach (int i in arr)
+                {
+                    if (i % 10 == 3)
+                    {
+                        Console.WriteLine(i);
+                    }
+
+                    if (i % 3 == 0)
+                        count++;
+                }
+
+                return count;
+            }
+        }
+
+        public class Solution7 // 별찍기
+        {
+            public void PrintStar(int n)
+            {
+                for(int i = n; i > 0; i--)
+                {
+                    for(int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                    }
+                    Console.WriteLine();
+                }
+            }
+        }
+
+        public class Solution8
+        {
+            public int PrintMaxValue(int[] arr)
+            {
+                Array.Sort(arr);
+                return arr[arr.Length - 1];
+            }
+        }
+
+        public class Solution9
+        {
+            public float PrintAcc(float m, float s)
+            {
+                return m / s * s;
+            }
+        }
+
 
 
         private int Width = 5;
@@ -253,9 +305,12 @@ namespace Test
             //Solution3 s3 = new Solution3();
             //Console.WriteLine($"{s3.SearchClosedPrime(5, 20)}");
 
-            int[] intarr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
-            Solution4 s4 = new Solution4();
-            Console.WriteLine($"{s4.SearchTargetToBinary(intarr, 2, 0, intarr.Length)}");
+            //int[] intarr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+            //Solution4 s4 = new Solution4();
+            //Console.WriteLine($"{s4.SearchTargetToBinary(intarr, 2, 0, intarr.Length)}");
+
+            Solution7 s7 = new Solution7();
+            s7.PrintStar(7);
         }
     }
 }
