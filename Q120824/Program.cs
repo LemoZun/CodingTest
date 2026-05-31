@@ -21,9 +21,6 @@
                 return answer;
             }
         }
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        
     }
 }
